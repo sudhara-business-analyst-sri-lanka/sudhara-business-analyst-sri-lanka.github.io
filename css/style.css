@@ -282,7 +282,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  background: url('../images/1.png') no-repeat;
   height: 100vh;
 }
 
@@ -291,7 +291,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-mybio {
-  background: url('../images/compere.png') no-repeat;
+  background: url('../images/compere.jpg') no-repeat;
 }
 .main-lseg {
   background: url('../images/mit.jpg') no-repeat;
