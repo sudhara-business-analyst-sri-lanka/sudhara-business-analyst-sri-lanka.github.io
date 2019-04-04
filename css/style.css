@@ -112,12 +112,24 @@ a:hover, a:active, a:focus {
 .main-mybio,
 .main-single-post,
 .main-gallery,
-.main-contact {
+.main-contact,
+.newsletter {
   height: 65vh;
 }
 
 .overlay {
-  background: rgba(0,0,0,0.7 );
+  background:rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay2{
+  background:  hsla(0, 4%, 52%, 0.4);
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -210,6 +222,7 @@ a:hover, a:active, a:focus {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin: 0;
+  text-align: left;
 }
 
 .navbar-default .navbar-nav li a {
@@ -266,7 +279,22 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background-size: cover;
+background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+     align-items: center;
+    position: relative;
+    text-align: center;
+}
+#home2 {
+background-size: cover;
     background-position: center center;
     color: #ffffff;
     display: -webkit-box;
@@ -285,7 +313,10 @@ a:hover, a:active, a:focus {
   background: url('../images/1.png') no-repeat;
   height: 100vh;
 }
-
+.main-home2 {
+  background: url('../images/screen.png') no-repeat;
+  height: 100vh;
+}
 .main-about {
   background: url('../images/about-bg.jpg') no-repeat;
 }
@@ -306,6 +337,10 @@ a:hover, a:active, a:focus {
 
 .main-contact {
   background: url('../images/image.jpg') no-repeat;
+}
+
+.newsletter {
+  background: url('../images/newsletter.jpg') no-repeat;
 }
 
 #particles-js {
@@ -743,7 +778,9 @@ footer .footer-copyright {
   .main-about,
   .main-single-post,  
   .main-gallery,
-  .main-contact {
+  .main-contact ,
+  .newsletter
+  {
     height: 35vh;
   }
 
