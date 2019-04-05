@@ -309,12 +309,32 @@ background-size: cover;
     text-align: center;
 }
 
+#home4 {
+background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+     align-items: center;
+    position: relative;
+    text-align: center;
+}
+
 .main-home {
   background: url('../images/1.png') no-repeat;
   height: 100vh;
 }
 .main-home2 {
   background: url('../images/screen.png') no-repeat;
+  height: 100vh;
+}
+.main-home4 {
+  background: url('') no-repeat;
   height: 100vh;
 }
 .main-about {
